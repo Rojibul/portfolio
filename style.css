@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.upper-section{
+    display: flex;
+    margin-bottom: 5px solid black;
+    background-image: radial-gradient(rgb(178, 184, 94), rgb(138, 106, 106));
+    
+}
+.first-para{
+    width: 50%;
+    padding-left: 55px;
+    text-align: center;
+}
+.first-para h1{
+    color:red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 100px;
+text-shadow: 10px 0 10px grey;}
+
+.first-para h2{
+    color:royalblue;
+    font-size: 40px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.name{
+    color: goldenrod;
+    font-size: 65px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow:7px 0 5px grey;
+}
+.first-para p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+}
+.link{
+    text-decoration: none;
+    background-image: linear-gradient(red, orange);
+    padding: 10px 50px;
+    border-radius: 8px;
+    
+}
+.photo img{
+    width: 120%;
+    padding-left: 50px;
+}
