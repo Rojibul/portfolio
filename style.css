@@ -6,6 +6,8 @@ body{
     display: flex;
     margin-bottom: 5px solid black;
     background-image: radial-gradient(rgb(178, 184, 94), rgb(138, 106, 106));
+    border-radius: 70px;
+    border-bottom: 25px solid rgb(55, 60, 65);
     
 }
 .first-para{
@@ -17,7 +19,8 @@ body{
     color:red;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 100px;
-text-shadow: 10px 0 10px grey;}
+text-shadow: 20px 20px 20px solid grey;
+}
 
 .first-para h2{
     color:royalblue;
@@ -44,4 +47,12 @@ text-shadow: 10px 0 10px grey;}
 .photo img{
     width: 120%;
     padding-left: 50px;
+}
+.middle-section{
+    padding: 0 10px 0 10px;
+    background-color:rgb(224, 199, 199);
+    display: flex;
+    margin-top: 25px;
+    border: 10px solid rgb(51, 53, 56);
+    box-shadow: 20px 5px 20px slategray;
 }
